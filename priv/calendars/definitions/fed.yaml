@@ -53,7 +53,7 @@ months:
   - name: Christmas Eve
     regions: [fed]
     mday: 24
-    observed: true
+    observed: exact_day(date)
   - name: Christmas Day
     regions: [fed]
     mday: 25

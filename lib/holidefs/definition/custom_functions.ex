@@ -12,7 +12,7 @@ defmodule Holidefs.Definition.CustomFunctions do
   end
 
   def call(fun, year, %Rule{} = rule) do
-    apply(__MODULE__, fun, [year, rule]) 
+    apply(__MODULE__, fun, [year, rule])
   end
 
   @doc false
@@ -167,6 +167,10 @@ defmodule Holidefs.Definition.CustomFunctions do
     else
       date
     end
+  end
+
+  def exact_day(%Date{} = date, _) do
+    date
   end
 
   @doc false
