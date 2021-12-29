@@ -53,6 +53,7 @@ months:
   - name: Christmas Eve
     regions: [fed]
     mday: 24
+    observed: true
   - name: Christmas Day
     regions: [fed]
     mday: 25
